@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "819415467877",
+    "firebase_url": "https://dunga-7e22f.firebaseio.com",
+    "project_id": "dunga-7e22f",
+    "storage_bucket": "dunga-7e22f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819415467877:android:585eda43e2231b4b",
+        "android_client_info": {
+          "package_name": "com.example.dunga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819415467877-q0dp7dli5sgbnogec50u3bqn5tt641kn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dunga",
+            "certificate_hash": "ca08c09800e48eaff9f5eb8718eb446764a6b5e0"
+          }
+        },
+        {
+          "client_id": "819415467877-4m4v2p9cqrjpckpkt4fo02pllb897sb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn-ALsZTNMm9owLrBa0P6S7bxK9jKnG8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819415467877-4m4v2p9cqrjpckpkt4fo02pllb897sb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SignIn"
+    android:background="@drawable/burger_background1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/food_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/signIn_logo"
+
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textSize="24sp"
+        app:met_baseColor="@android:color/white"
+        android:layout_centerVertical="true"
+        app:met_textColorHint="@android:color/white"
+        app:met_underlineColor="@android:color/white"
+        app:met_textColor="@android:color/white"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:id="@+id/signInEmailTxt"
+
+
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signInEmailTxt"
+        android:textSize="24sp"
+        android:hint="password"
+        app:met_baseColor="@android:color/white"
+        app:met_textColor="@android:color/white"
+        app:met_textColorHint="@android:color/white"
+        app:met_underlineColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/signInPassTxt"
+        android:inputType="textPassword"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1"
+        android:padding="8dp"
+        >
+
+        <info.hoang8f.widget.FButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/SignInBtn"
+            android:shadowColor="@android:color/black"
+            android:id="@+id/signInNowBtn"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
